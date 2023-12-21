@@ -1,0 +1,86 @@
+/*4k Screens*/
+
+@media screen and (max-width: 2560px) {
+    .l-container {
+        gap: 5rem;
+        width: 50%;
+        height: auto;
+    }
+
+    .l-header {
+        font-size: 3rem;
+    }
+
+    .m__label {
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    
+    .m__number {
+        margin-left: 3rem;
+        width: 7rem;
+        height: 3rem;
+        font-size: 3rem;
+    }
+
+    .m__button {
+        margin-left: 3rem;
+        width: 15rem;
+        height: 3rem;
+        font-size: 2.5rem;
+    }
+    
+    .m__button:hover {
+        cursor: pointer;
+    }
+    
+    .m__result {
+        margin-top: 2rem;
+        padding: 2rem;
+        font: bold 3rem "Times New Roman";
+    } 
+
+}
+
+/*Big Laptops*/
+
+@media screen and (max-width: 1440px) {
+    .l-container {
+        gap: 4rem;
+    }
+
+    .l-header {
+        font-size: 1.5rem;
+    }
+
+    .m__label {
+        font-size: 1.5rem;
+    }
+    
+    .m__number {
+        margin-left: 1rem;
+        width: 5rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .m__button {
+        margin-left: 1rem;
+        width: 6.3rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .m__result {
+        font: bold 1.5rem "Times New Roman";
+    } 
+
+}
+
+/*Laptops*/
+
+@media screen and (max-width: 1024px) {
+    .l-container {
+       width: 70%;
+    }
+}

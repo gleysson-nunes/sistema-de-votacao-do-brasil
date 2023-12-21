@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Saiba se você pode ou não votar através da sua idade">
+    <meta name="keywords" content="sistema, votação, votos, brasil">
+    <meta name="author" content="Gleysson Nunes">
+    <title>Sistema de Votação</title>
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body class="l-body">
+    <div class="l-container">
+        <header class="l-header">
+            <h1 class="sistema">Sistema de Votação do Brasil</h1>
+        </header>
+        <main class="l-main">
+            <form action="register.php" method="get">
+                <label class="m__label label-informe" for="idade-txt">Idade:</label>
+                <input class="m__input m__number" type="number" name="idade-txt" id="idade-txt">
+                <input class="m__input m__button" type="button" value="Verificar" onclick="verificar()">
+                <div class="m__result"></div>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

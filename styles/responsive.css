@@ -1,0 +1,39 @@
+/*Tablets*/
+
+@media screen and (max-width: 768px) {
+    .l-header {
+        font-size: 1.2rem;
+    }
+}
+
+/* Big Screen Mobile*/
+
+@media screen and (max-width: 425px) {
+    .l-container {
+        width: 90%;
+    }
+
+    .l-header {
+        font-size: 1.3rem;
+    }
+
+    .m__label {
+        font-size: 1.7rem;
+    }
+
+    .m__result {
+        font-size: 1.5rem;
+    }
+}
+
+/*Small Screen Mobile*/
+@media screen and (max-width: 320px) {
+    .m__button {
+        display: block;
+        margin: 2rem auto; 
+    }
+
+    .m__result {
+        margin-top: -2rem;
+    }
+}

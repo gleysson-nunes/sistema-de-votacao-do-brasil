@@ -1,0 +1,29 @@
+
+.l-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.l-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    background-color: #cf5a06;
+    border-radius: 1rem;
+    height: auto;
+    color: #fae9d5;
+    text-align: center;
+}
+
+.l-header {
+    margin-top: 1rem;
+}
+
+.l-main {
+    display: flex;
+}
+
